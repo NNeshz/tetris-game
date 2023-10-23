@@ -14,7 +14,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite preview"
+    "start": "vite preview",
+    "deploy": "railway up --host $HOST"
   },
   "type": "module",
   "version": "0.0.0"
