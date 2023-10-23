@@ -14,7 +14,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "start": "vite preview --host $HOST"
+    "start": "serve dist -p $PORT -s"
   },
   "type": "module",
   "version": "0.0.0"
