@@ -14,7 +14,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "start": "vite preview --port $PORT"
+    "start": "vite preview --host $HOST"
   },
   "type": "module",
   "version": "0.0.0"
