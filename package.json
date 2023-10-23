@@ -11,10 +11,10 @@
   "name": "tetris-rush",
   "private": true,
   "scripts": {
-    "build": "vite build",
     "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
-    "start": "serve dist -p $PORT -s"
+    "start": "serve dist -s -n -L -p $PORT"
   },
   "type": "module",
   "version": "0.0.0",
