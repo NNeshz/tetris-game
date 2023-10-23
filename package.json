@@ -14,7 +14,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "start": "vite preview --host RAILWAY_APP_DOMAIN"
+    "start": "serve dist -p $PORT"
   },
   "type": "module",
   "version": "0.0.0"
